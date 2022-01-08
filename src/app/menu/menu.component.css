@@ -1,0 +1,44 @@
+*{
+font-family: 'Karla', sans-serif;
+}
+.menu{
+    font-size: 18px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;    
+    height: 100vh;
+    padding:2rem;      
+}
+.logo{
+    width: 140px;    
+}
+.logo:hover{
+    cursor: pointer;
+}
+.link{
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    text-decoration: none;
+    
+}
+.link:hover{
+    color: #1a91db;
+    cursor: pointer;
+    border-color:#1a91db;
+    transition:ease-out 0.5s;
+    
+}
+
+
+.githublink{
+    padding-top: 30px;
+    
+}
+.githublink:hover{
+    transition: 0.5s;
+    color: #1a91db;
+    transition:ease-out 0.5s;
+    cursor: pointer;
+}
+

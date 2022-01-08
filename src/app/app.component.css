@@ -1,0 +1,14 @@
+
+.mainContainer{
+    display: flex;  
+}
+.menuMain{
+    position: fixed;
+    width: 22%;
+    margin: -8px;    
+}
+.mainMain{    
+    margin: 20px;
+    margin-left: 25%;
+    padding:20px;
+}
