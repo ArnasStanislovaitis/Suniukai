@@ -7,12 +7,14 @@ import { MenuComponent } from './menu/menu.component';
 import { PagrindinisComponent } from './pagrindinis/pagrindinis.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     PagrindinisComponent,
-    DocumentationComponent
+    DocumentationComponent,
+  
   ],
   imports: [
     BrowserModule,
